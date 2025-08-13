@@ -1,4 +1,5 @@
 --https://www.linkedin.com/feed/update/urn:li:activity:7116263374228783104/
+
 Question:
 Hr's in an Organization is looking to hire employees for the junior/senior positions. They have a total budget of 50000$ in all, they have to first fill up the senior positions (first priority) and then fill up the junior positions.
 write an sql query to find the number of junior and senior positions depending on the budget criteria 
