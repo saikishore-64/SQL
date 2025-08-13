@@ -1,3 +1,4 @@
+Link:
 https://www.linkedin.com/posts/saikishoregudiboina_sql12-sql-dataanalysts-activity-7119600357667733504-j_Zd?utm_source=share&utm_medium=member_desktop&rcm=ACoAACg184QBFyuXZdDA0SPYWvYfg646jV-SgT8
   
 Write an SQL query to find total number of matches played ,total wins, total losses, points by each team. 
