@@ -1,3 +1,5 @@
+--https://www.linkedin.com/feed/update/urn:li:activity:7121027260723204096/
+
 Question:
 Write a sql query to find the average distances between two distinct points that is source and destination.
 note: 
