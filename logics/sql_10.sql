@@ -2,7 +2,8 @@
 
 Question:
 
-write a query to report the ids and names of all managers, the number of employees who report directly to them, average age of reports rounded to nearest integer
+write a query to report the ids and names of all managers, the number of employees who report directly to them, 
+average age of reports rounded to nearest integer
 
 CREATE TABLE report_table
 (
