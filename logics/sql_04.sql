@@ -1,6 +1,7 @@
 Question:
 Write an SQL query that will return output having additional records for vacant positions i.e if u have vacant titles, 
-then ur employee name should be 'vacant' adding the input with as many records equal to vacant posts(for clarity see the output of the image)
+then ur employee name should be 'vacant' adding the input with as many records equal to vacant posts
+(for clarity see the output of the image)
 
 create table job_positions (
 id int,
