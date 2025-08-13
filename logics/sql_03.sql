@@ -1,3 +1,5 @@
+--https://www.linkedin.com/feed/update/urn:li:activity:7120687523676262400/
+
 Q‍‍‍‍‍‍‍uestion:
 write an SQL query to find the record list of persons whose grand parent is alive. 
 note: here in the input table, the person_status column represents status of person column not parent column
