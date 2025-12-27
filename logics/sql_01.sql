@@ -53,3 +53,24 @@ from team_wins T
 join draws D on T.team=D.team
 order by points desc
 
+
+Post gress code:
+select team,count(team) as total_matches 
+,count(flag) as total_wins
+,count(draw_flag) as total_draws
+
+,count(team)-count(flag)-count(draw_flag) as total_losses
+,case when team is not null then count(flag)*2 + count(draw_flag)*1 else 0 end as points
+
+from (
+select team_1 as team,
+case when team_1 = winner then 1 
+	  end as flag, case when winner='DRAW' then 1 end as draw_flag
+from world_cup
+union all
+select team_2,
+case when team_2 = winner then 1 
+	  end as flag, case when winner='DRAW' then 1 end as draw_flag
+from world_cup )
+group by team
+order by 2 desc
